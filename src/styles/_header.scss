@@ -1,0 +1,25 @@
+nav{
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav > a{
+  background: $background-color;
+  text-decoration: none;
+  margin: 1px;
+  padding: 5px;
+  color: white;
+  font-size: large;
+  flex-wrap: wrap;
+}
+a:hover {
+  color: #ffcc00;
+}
+
+nav > span{
+  margin-right: 200px;
+
+}
