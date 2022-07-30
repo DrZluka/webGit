@@ -2,31 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
 
   <body>
-    <div class="header">
+    <div style="width: 75%; margin: 0 auto" class="header">
       <nav>
         <span> <img src="assets/img/logo.png"></span>
-        <a href="#">Home</a>
-        <a href="#">Menu</a>
-        <a href="#">Services</a>
-        <a href="#">Blog</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <div>
+          <a href="#">Home</a>
+          <a href="#">Menu</a>
+          <a href="#">Services</a>
+          <a href="#">Blog</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
       </nav>
     </div>
-
+    <div class="swiper">
+      <div class="someSwap">
+        <div class="swiperOne mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
 
 
 
     <div id="root"></div>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">'+ "</span>";
+        },
+      },
+    });
+  </script>
 </html>
