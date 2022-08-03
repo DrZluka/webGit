@@ -2,7 +2,7 @@
   height: 500px;
   position: relative;
   width: 100%;
-  //transform: translate3d(3702px, 0px, 0px);
+  max-width: 3702px;
 }
 
 .someSwap {
@@ -15,11 +15,12 @@
 }
 
 .swiperOne {
-  width: 1864px;
+  width: 100%;
   height: 100%;
 }
 
 .swiper-slide {
+
   text-align: center;
   font-size: 18px;
   background: $background-color;
@@ -59,3 +60,10 @@
   color: #fff;
   background: #fffdfd75;
 }
+//@media screen and (max-width: 1800px) {
+//  .swiper-slide{
+//    transform: translate3d(-1219px, 0px, 0px);
+//    background: rebeccapurple;
+//  }
+
+
