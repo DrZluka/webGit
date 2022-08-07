@@ -1,0 +1,76 @@
+.inform{
+  background: $background-color;
+  width: 100%;
+  height: 600px;
+  align-items: flex-start
+}
+.newClassInfo{
+  width: 100%;
+  flex-direction: column
+}
+.iformData{
+  height: 150px;
+  display: grid;
+  width: 100%;
+  grid-template-columns:  2fr 35%;
+}
+.someAddress{
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+.someAddress > div > img{
+  margin: 5px;
+  width: 15px;
+}
+.someAddress > div {
+  margin: 10px;
+
+}
+.someInfoP{
+  flex-direction: column;
+  align-items: flex-start
+
+}
+.someInfoP > p {
+  margin: 0;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.yellowBack{
+  background: #fac564;
+  height: 150px;
+  padding-left: 50px;
+}
+.yellowBack > img{
+  width: 17px;
+  margin: 7px;
+}
+.pictAndWelcome{
+  height: 400px;
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  align-items: flex-start
+
+}
+.imageRestoran > img {
+  width: 100%;
+  overflow: hidden;
+}
+.newWelcomeClass > img{
+  width: 100%;
+  overflow: hidden;
+}
+.welocomeBg{
+  position: absolute;
+  padding: 100px;
+  flex-direction: column;
+}
+@media screen and (min-width: 800px){
+  .welocomeBg > div{
+    font-size: 15px;
+  }
+  .welocomeBg > img{
+    width: 15px;
+  }
+}

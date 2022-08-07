@@ -1,0 +1,13 @@
+.hotPizzaMeals{
+  background: url(assets/img/bg_4.jpg);
+  height: 700px;
+  width: 100%;
+  flex-direction: column;
+}
+.textOfHotPizza{
+  text-align: center;
+}
+.pizzaMenu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

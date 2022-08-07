@@ -1,0 +1,30 @@
+.yellowSpace{
+  height: 700px;
+  margin-top: 148px;
+  background: url(assets/img/food.png);
+  color: black;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.services{
+  flex-direction: column;
+  text-align: center;
+}
+.services > h1{
+  text-transform: uppercase;
+}
+.bottomServices{
+
+}
+.bottomServices > div > img{
+  border: 1px solid black;
+  padding: 15px;
+  width: 55px;
+  margin-bottom: 30px;
+}
+.someServices{
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+}
