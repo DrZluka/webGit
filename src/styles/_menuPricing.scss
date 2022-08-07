@@ -1,0 +1,33 @@
+.menuPricing{
+  background: url(assets/img/bg_4.jpg);
+  width: 100%;
+  height: 750px;
+  flex-direction: column;
+}
+.textofPricing{
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.pricingAndPict{
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 1200px;
+  grid-template-columns: 1fr 1fr;
+}
+.someMenuInfo{
+  margin: 10px;
+}
+.someMenuInfo > img{
+  border-radius: 45%;
+  width: 60px;
+}
+.someMenuInfo > div{
+  flex-direction: column;
+  margin-left: 10px;
+}
+.newTextMenu{
+  width: 100%;
+  margin: 0;
+  justify-content: space-between
+}
