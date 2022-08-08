@@ -1,0 +1,42 @@
+.newMenuInfo{
+  margin-top: 10px;
+  background: url(assets/img/bg_4.jpg);
+  height: 800px;
+  width: 100%;
+  align-items: flex-start
+}
+.someImgForMenu{
+  width: 30%;
+  overflow: hidden;
+  justify-content: center
+
+}
+.aMenu{
+  margin-right: 500px;
+}
+.aMenu > a{
+  border: 1px solid #fac564;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.35);
+}
+.aMenu > a:hover{
+  background: #fac564;
+  color: black;
+}
+.newPizzaMenu > div{
+  margin: 35px;
+}
+.newPizzaMenu > div > img{
+  border-radius: 45%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  justify-content: center
+}
+.newPizzaMenu > div {
+  flex-direction: column;
+}
+.newPizzaMenu > div > a{
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.35);
+}

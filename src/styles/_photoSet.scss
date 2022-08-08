@@ -1,0 +1,36 @@
+.photoSet{
+  background: url(assets/img/bg_2.jpg);
+  height: 600px;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.somePhoto{
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.somePhoto > div{
+  height: 300px;
+}
+.newPhoto > img{
+  width: 100%;
+  height: 100%;
+}
+.newPict{
+  background-color: rgba(0, 0, 0, 0.78);
+  margin: 0 auto;
+  padding-top: 90px;
+  padding-bottom: 10px;
+  width: 100%;
+  justify-content: space-evenly
+}
+.newPict > div > img{
+  width: 40px;
+  border: 1px solid #fac564;
+  padding: 20px;
+}
+.newPict > div{
+  flex-direction: column;
+}
